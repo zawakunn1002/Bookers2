@@ -1,0 +1,19 @@
+<div class= "container">
+  <div class="row">
+  	<div class="col-xs-3">
+      <% if @user.errors.any? %>
+        <p> error </p>
+      <% end %>
+  	  <h2> User info</h2>
+  	  <%= form_for(@user) do |f| %>
+  	  <label class= "name">Name</label>
+  	   <%= f.text_field :name %><br>
+  	  <label for="user_image">Image</label>
+  	  <%= f.attachment_field :profile_image %><br>
+  	  <label for="user_introduction">introduction</label>
+  	  <%= f.text_area :introduction %>
+  	  <%= f.submit "Update User" %>
+  	  <% end %>
+    </div>
+  </div>
+</div>

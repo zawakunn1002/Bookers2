@@ -17,41 +17,42 @@
  @import "bootstrap";
 
 .navbar-inverse {
-  background-color: #222;
-  border-color: #090909;
+ background-color: #222;
+ border-color: #090909;
 }
 
 .navbar-fixed-top {
-  top: 0;
-  border-width: 0 0 1px;
+top: 0;
+border-width: 0 0 1px;
 }
 
 .navbar-fixed-top
 .navbar-fixed-bottom {
-  position: fixed;
-  right: 0;
-  left: 0;
-  z-index: 1030;
+position: fixed;
+ right: 0;
+ left: 0;
+ z-index: 1030;
 }
 
+
 header {
-  color: white;
+ color: white;
 }
 
 .container {
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+ margin-right: auto;
+ margin-left: auto;
+ padding-left: 15px;
+ padding-right: 15px;
 }
 
 header .navbar-left span{
-  font-size: 20px;
-  padding-top: 10px;
+ font-size: 20px;
+ padding-top: 10px;
 }
 
 body {
-  margin: 50px auto;
+ margin: 50px auto;
 }
 
 .god {
